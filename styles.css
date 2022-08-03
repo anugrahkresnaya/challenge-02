@@ -235,15 +235,15 @@ ul li{
 }
 
 .prev-button {
-  border: none;
-  border-radius: 50%;
-  background: none;
-  padding: 0;
   margin-right: 12px;
 }
 
 .next-button {
+  margin-left: 12px;
+}
+
+.prev-button, .next-button {
   border: none;
   background: none;
-  margin-left: 12px;
+  padding: 0;
 }
