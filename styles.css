@@ -247,3 +247,34 @@ ul li{
   background: none;
   padding: 0;
 }
+
+/* getting started */
+
+.getting-started {
+  margin-top: 100px;
+}
+
+.cta-banner {
+  background: #0D28A6;
+  width: 1168px;
+  height: 326px;
+  margin: 0 auto;
+  border-radius: 13px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.cta-banner h1 {
+  padding-top: 64px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.cta-banner p {
+  width: 468px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 auto;
+  padding: 16px 0 52px;
+}
