@@ -10,6 +10,8 @@ header {
 
 .navbar-container {
   padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #F1F3FF;
 }
 
 nav {
@@ -21,12 +23,10 @@ nav {
   background: #0D28A6;
   width: 100px;
   height: 34px;
-  margin-left: 136px;
 }
 
 ul {
   align-items: center;
-  margin-right: 136px;
   margin-bottom: 0;
 }
 
@@ -43,10 +43,12 @@ ul li{
   font-weight: 700;
 }
 
+.hero-text {
+  padding-top: 60px;
+}
+
 .hero-text h1 {
   margin-top: 117px;
-  margin-left: 136px;
-  width: 568px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -55,7 +57,6 @@ ul li{
 
 .hero-text p {
   margin-top: 16px;
-  margin-left: 136px;
   width: 468px;
   font-style: normal;
   font-weight: 300;
@@ -63,12 +64,11 @@ ul li{
   line-height: 20px;
 }
 
-.hero-text button {
-  margin-left: 136px;
-}
-
 .car-image {
   margin-top: 33px;
+  padding-top: 60px;
+  position: absolute;
+  right: 0;
 }
 
 #shape {
@@ -92,7 +92,7 @@ ul li{
 }
 
 .right-img img {
-  margin-right: 71px;
+  margin-right: 61px;
 }
 
 .desc {
@@ -136,7 +136,7 @@ ul li{
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  margin: 100px 0 16px 136px;
+  margin: 100px 0 16px 0;
 }
 
 .why-us p {
@@ -144,10 +144,6 @@ ul li{
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-}
-
-.text-margin {
-  margin-left: 136px;
 }
 
 .card-1, .card-2, .card-3, .card-4 {
