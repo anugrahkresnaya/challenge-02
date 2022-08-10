@@ -136,7 +136,7 @@ ul li{
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  margin: 100px 0 16px 136px;
+  margin: 100px 0 16px 0;
 }
 
 .why-us p {
@@ -144,10 +144,6 @@ ul li{
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-}
-
-.text-margin {
-  margin-left: 136px;
 }
 
 .card-1, .card-2, .card-3, .card-4 {
