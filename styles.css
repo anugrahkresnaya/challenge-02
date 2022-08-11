@@ -322,11 +322,6 @@ footer {
   margin: 150px 0 100px;
 }
 
-.footer-container {
-  margin-right: 136px;
-  margin-left: 136px;
-}
-
 .address-info, .social-media, .copyright {
   width: 268px;
   font-size: 14px;
@@ -353,6 +348,8 @@ footer {
 span {
   margin-right: 16px;
 }
+
+/* offset */
 
 .offset::before {
   display: block;
