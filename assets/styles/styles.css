@@ -108,7 +108,6 @@ ul li{
 }
 
 .desc h1 {
-  width: 468px;
   margin-left: 39px;
   font-style: normal;
   font-weight: 700;
@@ -117,7 +116,6 @@ ul li{
 }
 
 .desc p {
-  width: 468px;
   margin-top: 24px;
   margin-left: 39px;
   font-weight: 300;
@@ -154,11 +152,6 @@ ul li{
   line-height: 20px;
 }
 
-.card-body, .card {
-  width: 268px;
-  height: 196px;
-}
-
 .card-body h5 {
   font-style: normal;
   font-weight: 700;
@@ -168,10 +161,6 @@ ul li{
 
 .card-body h5, .card-body img {
   margin-bottom: 16px;
-}
-
-.card-text {
-  width: 220px;
 }
 
 /* testimonial carousel */
@@ -402,7 +391,31 @@ span {
     width: 70%;
   }
 
-  .desc h1, .desc p {
+  .desc h1, .desc p, .desc ul {
     margin-left: 0;
+  }
+
+  .desc p br {
+    display: none;
+  }
+
+  /* why us */
+
+  .why-us h1 {
+    margin-top: 62px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .card {
+    margin-bottom: 16px;
+  }
+
+  .card-body br {
+    display: none;
   }
 }
