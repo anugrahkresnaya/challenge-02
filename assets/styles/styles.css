@@ -36,11 +36,16 @@ ul li{
   font-weight: 400;
 }
 
-.btn {
+#btn-green {
   background-color: #5CB85F;
   color: #FFFFFF;
   font-size: 14px;
   font-weight: 700;
+  padding: 8px 12px;
+}
+
+.offcanvas {
+  --bs-offcanvas-width: 180px;
 }
 
 .hero-text {
@@ -86,7 +91,6 @@ ul li{
 /* our section */
 
 .our-section {
-  height: 428px;
   margin-top: 104px;
 }
 
@@ -270,7 +274,6 @@ ul li{
 }
 
 .cta-banner p {
-  width: 468px;
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
@@ -365,10 +368,10 @@ span {
 
 /* media queries */
 
-@media only screen and (min-width: 376px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   header {
     background: #F1F3FF;
-    height: 657px;
+    height: 611px;
     width: 100%;
   }
 
@@ -385,8 +388,21 @@ span {
     position: absolute;
     margin-top: 24px;
     padding-top: 0;
-    width: 344.22px;
-    height: 199px;
+    width: 97%;
     right: 0;
+  }
+
+  /* our-service */
+
+  .our-section {
+    margin-top: 104px;
+  }
+
+  .right-img img {
+    width: 70%;
+  }
+
+  .desc h1, .desc p {
+    margin-left: 0;
   }
 }
