@@ -363,7 +363,7 @@ span {
 @media only screen and (max-width: 767px) {
   header {
     background: #F1F3FF;
-    height: 611px;
+    height: 630px !important;
     width: 100%;
   }
 
