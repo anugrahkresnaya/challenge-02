@@ -392,6 +392,10 @@ span {
     right: 0;
   }
 
+  .offcanvas {
+    --bs-offcanvas-width: 50% !important;
+  }
+
   /* our-service */
 
   .our-section {
