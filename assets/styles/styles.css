@@ -25,11 +25,6 @@ nav {
   height: 34px;
 }
 
-ul {
-  align-items: center;
-  margin-bottom: 0;
-}
-
 ul li{
   margin-right: 32px;
   font-size: 14px;
@@ -46,6 +41,10 @@ ul li{
 
 .offcanvas {
   --bs-offcanvas-width: 180px;
+}
+
+.offcanvas-title {
+  font-weight: 700;
 }
 
 .hero-text {
@@ -361,7 +360,7 @@ span {
 
 /* media queries */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   header {
     background: #F1F3FF;
     height: 611px;
@@ -419,7 +418,7 @@ span {
     text-align: center;
   }
 
-  .text-center {
+  #text-center {
     text-align: center;
   }
 
@@ -517,5 +516,47 @@ span {
 
   .copyright {
     margin-top: 16px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    height: 920px;
+  }
+
+  /* our service */
+
+  .desc h1, .desc p, .desc ul {
+    margin-left: 0;
+  }
+
+  .right-img {
+    text-align: center;
+  }
+
+  .right-img img {
+    margin: 0;
+  }
+
+  /* why-us */
+
+  .card {
+    margin-bottom: 24px;
+  }
+
+  /* faq */
+
+  .faq-section {
+    flex-direction: column;
+  }
+
+  /* footer */
+
+  footer {
+    margin-top: 80px;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
   }
 }
