@@ -152,6 +152,10 @@ ul li{
   line-height: 20px;
 }
 
+.card, .card-body {
+  width: 268px;
+}
+
 .card-body h5 {
   font-style: normal;
   font-weight: 700;
@@ -417,5 +421,9 @@ span {
 
   .card-body br {
     display: none;
+  }
+
+  .card, .card-body {
+    width: auto;
   }
 }
