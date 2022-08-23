@@ -40,7 +40,7 @@ ul li{
 }
 
 .offcanvas {
-  --bs-offcanvas-width: 180px;
+  --bs-offcanvas-width: 50%;
 }
 
 .offcanvas-title {
@@ -522,6 +522,10 @@ span {
 @media only screen and (max-width: 992px) {
   header {
     height: 920px;
+  }
+
+  .offcanvas {
+    --bs-offcanvas-width: 25%;
   }
 
   /* our service */
