@@ -461,4 +461,53 @@ span {
     text-align: left;
     margin: 0 32px 16px;
   }
+
+  /* getting started */
+
+  .cta-banner {
+    height: auto;
+  }
+
+  .cta-banner h1 {
+    width: 212px;
+    margin: auto;
+  }
+
+  .cta-banner p {
+    width: 212px;
+  }
+
+  .cta-banner button {
+    margin-bottom: 64px;
+  }
+
+  /* faq */
+
+  .faq-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .faq-desc {
+    text-align: center;
+  }
+
+  .accordion {
+    width: auto;
+  }
+
+  /* footer */
+
+  footer {
+    margin-top: 60px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .copyright {
+    margin-top: 16px;
+  }
 }
