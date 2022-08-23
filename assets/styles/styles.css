@@ -36,11 +36,16 @@ ul li{
   font-weight: 400;
 }
 
-.btn {
+#btn-green {
   background-color: #5CB85F;
   color: #FFFFFF;
   font-size: 14px;
   font-weight: 700;
+  padding: 8px 12px;
+}
+
+.offcanvas {
+  --bs-offcanvas-width: 180px;
 }
 
 .hero-text {
@@ -79,10 +84,13 @@ ul li{
   margin-top: 197px;
 }
 
+.navbar-toggler-icon {
+  margin-right: 0;
+}
+
 /* our section */
 
 .our-section {
-  height: 428px;
   margin-top: 104px;
 }
 
@@ -100,7 +108,6 @@ ul li{
 }
 
 .desc h1 {
-  width: 468px;
   margin-left: 39px;
   font-style: normal;
   font-weight: 700;
@@ -109,7 +116,6 @@ ul li{
 }
 
 .desc p {
-  width: 468px;
   margin-top: 24px;
   margin-left: 39px;
   font-weight: 300;
@@ -146,9 +152,8 @@ ul li{
   line-height: 20px;
 }
 
-.card-body, .card {
+.card, .card-body {
   width: 268px;
-  height: 196px;
 }
 
 .card-body h5 {
@@ -160,10 +165,6 @@ ul li{
 
 .card-body h5, .card-body img {
   margin-bottom: 16px;
-}
-
-.card-text {
-  width: 220px;
 }
 
 /* testimonial carousel */
@@ -266,7 +267,6 @@ ul li{
 }
 
 .cta-banner p {
-  width: 468px;
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
@@ -357,4 +357,165 @@ span {
   height: 10px;
   margin-top: -10px;
   visibility: hidden;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+  header {
+    background: #F1F3FF;
+    height: 611px;
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    margin-top: 32px;
+  }
+
+  .hero-text p {
+    width: auto;
+  }
+
+  .hero-text br {
+    display: none;
+  }
+
+  .hero-container {
+    background: #F1F3FF;
+    width: 100%;
+  }
+
+  .car-image {
+    position: absolute;
+    margin-top: 24px;
+    padding-top: 0;
+    width: 97%;
+    right: 0;
+  }
+
+  /* our-service */
+
+  .our-section {
+    margin-top: 104px;
+  }
+
+  .right-img img {
+    width: 70%;
+  }
+
+  .desc h1, .desc p, .desc ul {
+    margin-left: 0;
+  }
+
+  .desc p br {
+    display: none;
+  }
+
+  /* why us */
+
+  .why-us h1 {
+    margin-top: 62px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .card {
+    margin-bottom: 16px;
+  }
+
+  .card-body br {
+    display: none;
+  }
+
+  .card, .card-body {
+    width: auto;
+  }
+
+  /* testimonial */
+
+  #img-responsive {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial-section {
+    height: auto;
+  }
+
+  .card {
+    height: auto;
+  }
+
+  .image-testimonial {
+    margin: 40px auto 24px;
+  }
+
+  .desc-testimonial {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .statement-testimonial {
+    width: auto;
+    margin: 8px 32px 8px;
+    text-align: left;
+  }
+
+  .name {
+    text-align: left;
+    margin: 0 32px 16px;
+  }
+
+  /* getting started */
+
+  .cta-banner {
+    height: auto;
+  }
+
+  .cta-banner h1 {
+    width: 212px;
+    margin: auto;
+  }
+
+  .cta-banner p {
+    width: 212px;
+  }
+
+  .cta-banner button {
+    margin-bottom: 64px;
+  }
+
+  /* faq */
+
+  .faq-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .faq-desc {
+    text-align: center;
+  }
+
+  .accordion {
+    width: auto;
+  }
+
+  /* footer */
+
+  footer {
+    margin-top: 60px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .copyright {
+    margin-top: 16px;
+  }
 }
