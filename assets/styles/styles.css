@@ -372,6 +372,14 @@ span {
     margin-top: 32px;
   }
 
+  .hero-text p {
+    width: auto;
+  }
+
+  .hero-text br {
+    display: none;
+  }
+
   .hero-container {
     background: #F1F3FF;
     width: 100%;
